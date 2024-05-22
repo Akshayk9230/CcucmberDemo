@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		dryRun = false,//to check whether mapping is proper between feature file and step definition
 		// monochrome = false,// to print the out put in a pretty format
 		//  tags="@Smoke or @Regression",
-		publish = true // we can get reports published into a cucumber cloud
+		publish = false // we can get reports published into a cucumber cloud
 		)
 public class Runner1 {	
 }
