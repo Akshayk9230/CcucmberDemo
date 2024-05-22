@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="27.323">
+    <testcase classname="Home Page Feature" name="Verify all the Home Page buttons are visible" time="4.157">
+        <system-out><![CDATA[Given I am on the HomePage after login......................................passed
+Then Check the buttons Home are present.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Home Page Feature" name="Verify all the Home Page buttons are visible 2" time="3.97">
+        <system-out><![CDATA[Given I am on the HomePage after login......................................passed
+Then Check the buttons Orders are present...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Home Page Feature" name="Verify all the Home Page buttons are visible 3" time="4.976">
+        <system-out><![CDATA[Given I am on the HomePage after login......................................passed
+Then Check the buttons Cart are present.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="Login with valid credentials" time="4.715">
+        <system-out><![CDATA[Given I am on login page of the of application..............................passed
+When I enter valid email "testuser123@example.com" and password "Password@123" and click on login button.passed
+Then I should be able to view the home button in home page..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="Login using invalid credentials" time="5.748">
+        <system-out><![CDATA[Given I am on login page of the of application..............................passed
+When I enter email "testuser123@example.com" and wrong password "random123" and click on login button.passed
+Then I should not be able to login and a error message should be displayed stating "Incorrect email or password.".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Unknown" name="Login using email with invalid format" time="3.522">
+        <system-out><![CDATA[Given I am on login page of the of application..............................passed
+When I enter invalid email format "testuser.com" and a password "random123" and click on login button.passed
+Then I should get a error message below the email input field stating "*Enter Valid Email".passed
+]]></system-out>
+    </testcase>
+</testsuite>
